@@ -2,6 +2,15 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+.container-wrapper{
+
+}
+
+.container-wrapper-orange{
+    background-color: #f7962e;
+    color: white;
+}
+
 /*callout*/
 
 .callout-container{
@@ -18,6 +27,92 @@ body{
     justify-content: center;
 
     position: relative;
+
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*content containers*/
+
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px
+}
+
+
+
+/*Page headers*/
+
+.page-header{
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2{
+    margin-top: 0;
+}
+
+.quotes .page-header{
+    margin-bottom: 25px;
+}
+
+/* Block dividers */
+
+.block-divider{
+    width: 150px;
+    height: 5px;
+    
+}
+
+.block-divider-orange{
+    background-color: #f7962e;
+}
+
+.block-divider-white{
+    background-color: white;
+}
+
+/*Navbar*/
+
+.navalert-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navalert-container .col-12{
+    padding: 0;
+}
+
+.navbar{
+    margin-bottom: 0;   
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0;  
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a{
+    font-weight: bold;
+}
+
+.navbar .navbar-toggler{
+    border: 0;
+}
+
+.alert-warning{
+    margin-bottom: 0;
+    border: 0;
+    color: white;
+    background-color: #f7962e;
+    padding: 5px 15px;
 }
 
 /* Jumbotron */
@@ -25,6 +120,7 @@ body{
 .jumbotron{
     background: transparent;
     background-color: rgba(50,50,50,0.4);
+    position: relative;
 }
 
 .jumbotron h1{
@@ -57,4 +153,25 @@ body{
     background-color: white;
     color: #f7962e;
     border-color: #f7962e;
+}
+
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature .btn-default{
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    min-width: 100px;
+    margin-top: 10px;
+    color: #f7962e;
+}
+
+.feature i{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 45px;
+    line-height: 45px;
 }
